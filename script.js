@@ -106,7 +106,7 @@ function adminLogin(e) {
     const username = document.getElementById('adminUsername').value;
     const password = document.getElementById('adminPassword').value;
     
-    if (username === 'admin' && password === 'admin123') {
+    if (username === 'rajesh' && password === 'raju123') {
         currentUser = { role: 'admin' };
         window.location.href = 'admin.html';
     } else {
